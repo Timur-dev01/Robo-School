@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+header {
+  height: auto;
+}
+.bg {
+  background-color: #141024;
+}
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.top-header .th a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.top-header a {
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.top-header .th:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.info {
+  position: relative;
+  margin-top: 92px;
+}
+.info h1 {
+  font-family: Jost;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  margin-top: 181px;
+  color: #FFFFFF;
+}
+.info p {
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  margin-top: 20px;
+  color: #FFFFFF;
+}
+.info button {
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 50px 0 411px;
+  background-color: #d52027;
+  width: 260px;
+  height: 79px;
+  border: 0;
+  border-radius: 5px;
+  padding-top: 25px;
+  padding-right: 54px;
+  padding-bottom: 25px;
+  padding-left: 54px;
+  gap: 10px;
+  color: #FFFFFF;
+}
+.info button:hover{
+    background-color: #d52026cf;
+     transform: scale(1.04);
+}
+.info button:active{
+    background-color: #d52026;
+    transform: scale(0.96);
+}
+.hd {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  position: relative;
+}
+.div-img img:first-of-type {
+  position: absolute;
+  top: 162.52px;
+  width: 600px;
+  height: 600px;
+}
+.div-img img:last-of-type {
+  width: 600px;
+  height: 900px;  
+  position: absolute;
+  top: 92.53px;
+}
+.bg h2 {
+  font-family: Jost;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: white;
+}
+.bg a.tel {
+  font-family: Jost;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.about {
+  margin-top: 120px;
+}
+.about span {
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #141024;
+}
+.about p:first-child {
+  font-family: Jost;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #141024;
+}
+.about p {
+  color: #141024b2;
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+.about-info {
+    margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+.about-info div h2 {
+  color: #d52027;
+  font-family: Jost;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+.about-couch {
+  margin-top: 105px;
+}
+.about-couch h1 {
+  font-family: Jost;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+.ac_parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.ac {
+  margin-top: 60px;
+}
+.ac img {
+  border-radius: 20px;
+}
+.ac h3 {
+  font-family: Jost;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  margin: 20px 0 10px;
+}
+.ac p {
+  color: #141024b2;
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  margin-bottom: 20px;
+}
+
+.ac a {
+  color: #d52027;
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+
+.footer {
+  height: 159px;
+  margin-top: 130px;
+  position: relative;
+}
+.footer h2 {
+  position: absolute;
+  left: 100px;
+  top: 40px;
+} 
+.footer a:nth-child(2) {
+  margin-top: 5px;
+  position: absolute;
+  left: 100px;
+  bottom: 40px;
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #FFFFFFB2;
+}
+.footer a:nth-child(1){
+  position: absolute;
+  right: 100px;
+  top: 40px;
+}
